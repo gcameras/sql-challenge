@@ -40,11 +40,3 @@ title VARCHAR
 from_date DATE		
 to_date DATE	
 
-Titles
--
-emp_no	VARCHAR PK
-title VARCHAR
-from_date DATE		
-to_date DATE	
- 
-
