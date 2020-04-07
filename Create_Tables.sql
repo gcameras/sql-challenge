@@ -89,7 +89,7 @@ REFERENCES "employees" ("emp_no");
 ALTER TABLE "titles" ADD CONSTRAINT "fk_titles_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
 
--- Confirm data in the tables
+-- Verify successful data import
 
 SELECT * FROM departments;
 SELECT * FROM dept_emp;
