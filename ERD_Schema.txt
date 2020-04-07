@@ -6,14 +6,14 @@ dept_name VARCHAR
 dept_emp
 -
 emp_no INT FK -< employees.emp_no
-dept_no VARCHAR FK >- departments.dept_no
+dept_no VARCHAR FK -< departments.dept_no
 from_date DATE
 to_date DATE
 
 dept_manager
 -
-dept_no VARCHAR FK >- departments.dept_no
-emp_no INT FK - employees.emp_no
+dept_no VARCHAR FK -< departments.dept_no
+emp_no INT FK >- employees.emp_no
 from_date DATE
 to_date DATE
 
