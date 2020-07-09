@@ -1,4 +1,4 @@
-# SQL Homework
+# SQL Challenge
 
 ## Background
 
