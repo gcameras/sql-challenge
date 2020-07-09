@@ -13,13 +13,13 @@ Task: Research project on employees of the corporation Pewlett Hackard from the 
 #### Data Modeling
 
 Inspected the CSVs and sketched out an ERD of the tables. Used [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com) to create the image.
+
 ![ERD](/Images/ERD_Image.png)
 
 #### Data Engineering
 * Schema SQL File: Create_Tables.sql
 
    1. Used the information to create a table schema for each of the six CSV files. Specified data types, primary keys, foreign keys, and other constraints.
-
    2. Imported each CSV file into their corresponding SQL table.
 
 #### Data Analysis
