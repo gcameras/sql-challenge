@@ -16,16 +16,15 @@ Inspected the CSVs and sketched out an ERD of the tables. Used [http://www.quick
 ![ERD](/Images/ERD_Image.png)
 
 #### Data Engineering
-
-* Used the information to create a table schema for each of the six CSV files. Specified data types, primary keys, foreign keys, and other constraints.
-
-* Import each CSV file into the corresponding SQL table.
-
 * Schema SQL File: Create_Tables.sql
+
+   1. Used the information to create a table schema for each of the six CSV files. Specified data types, primary keys, foreign keys, and other constraints.
+
+   2. Imported each CSV file into their corresponding SQL table.
 
 #### Data Analysis
 
-* Analysis SQL File: Data_Analysis.sql
+* SQL Queries: Data_Analysis.sql
 
    1. List the following details of each employee: employee number, last name, first name, gender, and salary.
    2. List employees who were hired in 1986.
@@ -36,11 +35,11 @@ Inspected the CSVs and sketched out an ERD of the tables. Used [http://www.quick
    7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
    8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-## Bonus (Optional)
+## SQL Alchemy Bonnus
 
-Generate a visualization of the data
+Generated a visualization of the data
 
-1. Import the SQL database into Pandas.  
+1. Imported the SQL database into Pandas.  
 
    ```sql
    from sqlalchemy import create_engine
@@ -48,11 +47,10 @@ Generate a visualization of the data
    connection = engine.connect()
    ```
 
-* Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
+* [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql)
 
-2. Create a histogram to visualize the most common salary ranges for employees.
-
-3. Create a bar chart of average salary by title.
+2. Created a histogram to visualize the most common salary ranges for employees.
+3. Created a bar chart of average salary by title.
 
 
 ### Copyright
