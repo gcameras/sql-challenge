@@ -35,9 +35,11 @@ Inspected the CSVs and sketched out an ERD of the tables. Used [http://www.quick
    7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
    8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-## SQL Alchemy Bonnus
+## SQL Alchemy Bonus
 
-Generated a visualization of the data
+Notebook: SQLAlchemy_Bonus.ipynb
+
+Generated a visualization of the data:
 
 1. Imported the SQL database into Pandas.  
 
